@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EventSpot Lite</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <h1>EventSpot Lite</h1>
+    <input type="text" id="searchInput" placeholder="Search events...">
+  </header>
+  
+
+  <nav class="genre-navbar">
+    <button class="genre-button" data-genre="All">All</button>
+    <button class="genre-button" data-genre="Concerts">Concerts</button>
+    <button class="genre-button" data-genre="Comedy">Comedy</button>
+    <button class="genre-button" data-genre="Sports">Sports</button>
+  </nav>
+  
+  <main class="event-list" id="eventList"></main>
+  <div class="modal-backdrop" id="modalBackdrop" style="display: none;">
+    <div class="modal-content">
+      <button class="close-btn" id="closeModal">X</button>
+      <img id="modalImage" alt="Event Image">
+      <h2 id="modalTitle"></h2>
+      <p id="modalDescription"></p>
+      <button id="buyTicketsButton" class="buy-tickets-btn">Buy Tickets</button>
+    </div>
+  </div>
+ 
+
+<footer class="footer">
+    <div class="footer-content">
+      <div class="social-media">
+        <a href="https://instagram.com" target="_blank" aria-label="Instagram">Instagram</a> |
+        <a href="https://facebook.com" target="_blank" aria-label="Facebook">Facebook</a> |
+        <a href="https://x.com" target="_blank" aria-label="X">X</a>
+      </div>
+  
+ 
+      <nav class="footer-links">
+        <a href="#contact">Contact Us</a>
+        <a href="#about">About Us</a>
+        <a href="#privacy">Privacy Policy</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+    </div>
+    <p class="footer-copyright">© 2024 EventSpot Lite. All Rights Reserved.</p>
+  </footer>
+  
+  
+   
+  
+
+  <script src="script.js"></script>
+</body>
+</html>
